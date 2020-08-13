@@ -281,7 +281,7 @@ addItemS(station) {
             Add start time &nbsp;
             <input
                  type="Text"
-                 placeholder="Start time(HH:MM)"
+                 placeholder="Start time(HH.MM)"
                  value = {this.state.start}
                  onChange={e => this.updateInputS("start", e.target.value)}
                  />
@@ -296,7 +296,7 @@ addItemS(station) {
             Add end time &nbsp;
             <input
                  type="Text"
-                 placeholder="End time(HH:MM)"
+                 placeholder="End time(HH.MM)"
                  value = {this.state.end}
                  onChange={e => this.updateInputE("end", e.target.value)}
             />
