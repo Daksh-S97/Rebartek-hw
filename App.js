@@ -2,8 +2,6 @@ import React, { Component, Fragment } from 'react';
 import './App.css';
 import Hello from './components/Hello';
 
-/* import Yoyo from './components/CComp';
- import Msg from './components/Msg'; */
 
 class App extends Component {
   constructor(props) {
@@ -238,8 +236,7 @@ addItemS(station) {
     return (
       <div>
       <Hello name="REBARTEK" />
-      {/*<Count></Count> */ }
-      {/* < Yoyo name="Honey Singh"/ > */}
+  
       <h1 className="app-title">CAGES</h1>
       Add cage &nbsp;
         <input 
